@@ -69,7 +69,7 @@ def matplotlibstyle(fig):
 def figure(params=None, title=None):
     fig=go.Figure()
     fig.update_layout(title_text=title)
-    return f
+    return fig
 
 def subplot(rows=1, cols=1,titles=None):
     fig = make_subplots(rows, cols,subplot_titles=titles)
